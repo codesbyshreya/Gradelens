@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (studentLoginForm) {
         studentLoginForm.addEventListener("submit", function (event) {
             event.preventDefault();
-            window.location.href = "student.html";
+            window.location.href = "student-dashboard.html";
         });
     }
 
